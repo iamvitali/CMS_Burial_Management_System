@@ -20,9 +20,23 @@
 moc_*.cpp
 qrc_*.cpp
 ui_*.h
+ui_*.ui
 Makefile*
 *-build-*
 
 # QtCreator
 
 *.autosave
+
+# Compiled Python
+*.pyc
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Local paramaters
+localparam_*
+
+# Individual ignore files
+gitignore_*
